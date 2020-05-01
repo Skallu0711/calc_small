@@ -1,0 +1,57 @@
+/*
+author: Skallu
+*/
+
+*{
+    -fx-base: black;
+}
+
+.button_func{
+    -fx-text-fill: black;
+    -fx-shape: "M 25, 50 a 25,25 0 1,1 50,0 a 25,25 0 1,1 -50,0";
+    -fx-background-color: #696969;
+}
+
+.button_func:hover{
+    -fx-background-color: linear-gradient(to right, #696969 0%, #808080 100%);
+}
+
+
+
+.button_calculate{
+    -fx-text-fill: white;
+    -fx-shape: "M 25, 50 a 25,25 0 1,1 50,0 a 25,25 0 1,1 -50,0";
+    -fx-background-color: #DAA520;
+}
+
+.button_calculate:hover{
+    -fx-background-color: linear-gradient(to right, #DAA520 0%, #f4b71b 100%);
+}
+
+
+
+.button_numbers{
+    -fx-text-fill: white;
+    -fx-shape: "M 25, 50 a 25,25 0 1,1 50,0 a 25,25 0 1,1 -50,0";
+    -fx-background-color: #493f39;
+}
+
+.button_numbers:hover{
+    -fx-background-color: linear-gradient(to right, #493f39 0%, #60554e 100%);
+}
+
+
+
+.button_zero{
+    -fx-text-fill: white;
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-background-color: #493f39;
+}
+
+.button_zero:hover{
+    -fx-background-color: linear-gradient(to right, #493f39 0%, #60554e 100%);
+}
+
+
+
